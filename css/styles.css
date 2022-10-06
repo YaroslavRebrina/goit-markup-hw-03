@@ -1,0 +1,231 @@
+:root{
+    /* fonst */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* colors */
+    --accent-txt-cl: #2196F3;
+    --main-txt-cl: #212121;
+    --secondary-txt-color: #757575;
+    --secondary-txt-color-footer: rgba(255, 255, 255, 0.6);
+    --color-button: #F5F4FA;
+
+     /* bg colors */
+    --accent-bg-cl: #188CE8;
+    --main-bg-cl: #2F303A;
+    --secondary-bg-color: #757575;
+}
+
+/* primary rules */
+body{
+    color: var(--main-txt-cl);
+    font-family: var(--main-font);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.sections-headers{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/* logo */
+.logo{
+    font-family: var(--secondary-font);
+    text-decoration:none ;
+    color: var(--accent-txt-cl);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio-header{
+color: #000;
+}
+
+
+footer .logo-studio {
+    color: #fff;
+}
+
+/* navigation bar */
+.active{
+    color: var(--accent-txt-cl);
+}
+
+.nav-bar .nav-link{
+    text-decoration: none;
+    color: var(--main-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-bar .nav-link:hover, .nav-bar .nav-link:focus{
+    color: var(--accent-txt-cl);
+}
+
+.nav-bar-footer a{
+    color: var(--secondary-txt-color-footer);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em
+}
+
+.nav-bar .active {
+    color: var(--accent-txt-cl);
+}
+
+
+/* contacts */
+
+.contacts a{
+    text-decoration: none;
+    color: var(--secondary-txt-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-txt-cl);
+}
+
+/* buttons */
+.button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button-primary{
+     color: var(--main-txt-cl);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: var(--accent-txt-cl);
+    color: #fff
+}
+
+.button-secondary {
+    background-color: var(--accent-txt-cl);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    background: var(--accent-bg-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* section hero */
+.section-hero{
+    background-color:var(--main-bg-cl);
+}
+
+.section-hero-header{
+    color:#fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* servise descriprion section */
+
+.servise-description h2{
+    display: none;
+   
+}
+
+.servise-description h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.servise-description p {
+    color: var(--secondary-txt-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* our team */
+
+.our-team h3{
+    font-size: 16px;
+    line-height: 1.19;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.our-team p{
+    color: var(--secondary-txt-color);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--main-bg-cl);
+}
+
+.physical-address{
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.nav-link-footer{
+    text-decoration: none;
+    color: var(--secondary-txt-color-footer);
+}
+.nav-link-footer:hover,
+.nav-link-footer:focus {
+    color: var(--accent-txt-cl);
+}
+/* protfolio page */
+
+/* main section */
+
+.portfolio-main-header{
+    display: none;
+}
+
+.projects-examples h2{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-examples p{
+    color: var(--secondary-txt-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+}
