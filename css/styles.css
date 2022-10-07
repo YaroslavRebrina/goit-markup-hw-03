@@ -50,7 +50,7 @@ margin: 0px;
 }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -230,6 +230,8 @@ footer .logo-studio {
 .section-hero-text{
     display: inline-block;
     margin-top: 200px ;
+
+    max-width: 696px;
 }
 
 .section-hero .button{
