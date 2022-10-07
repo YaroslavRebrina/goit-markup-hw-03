@@ -419,8 +419,10 @@ footer .item{
 
 .flex-box-examples .item{
     flex-basis: calc((100% - 60) / 3);
+    max-width: 370px;
     border: 1px solid #EEEEEE;
     padding-bottom: 20px;
+
 }
 
 .flex-box-examples img{
