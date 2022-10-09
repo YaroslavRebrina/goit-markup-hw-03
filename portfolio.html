@@ -20,182 +20,206 @@
   <body>
     <header>
       <!--Navigation -->
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation-bar">
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio-header">Studio</span></a
           >
           <ul class="nav-bar list">
             <li class="item">
-              <a class="nav-link" href="./index.html">Студія</a>
+              <a class="nav-link active" href="./index.html">Студія</a>
             </li>
             <li class="item">
-              <a class="nav-link active" href="./portfolio.html">Портфоліо</a>
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
-          <!-- Contacts -->
-          <ul class="contacts list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="item number">
-              <a href="tel:380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
         </nav>
+        <!-- Contacts -->
+        <ul class="contacts list">
+          <li class="item">
+            <a class="contacts-adress" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item number">
+            <a class="contacts-adress" href="tel:380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section class="projects-examples">
+      <section class="section projects-examples">
         <div class="container">
           <h1 class="portfolio-main-header">Нащі проекти</h1>
-          <ul class="list">
-            <div class="flexbox">
-              <li class="item">
-                <button class="button button-primary" type="button">Усі</button>
-              </li>
-              <li class="item">
-                <button class="button button-primary" type="button">
-                  Веб-сайти
-                </button>
-              </li>
-              <li class="item">
-                <button class="button button-primary" type="button">
-                  Додатки
-                </button>
-              </li>
-              <li class="item">
-                <button class="button button-primary" type="button">
-                  Дизайн
-                </button>
-              </li>
-              <li class="item">
-                <button class="button button-primary" type="button">
-                  Маркетинг
-                </button>
-              </li>
-            </div>
+          <ul class="list flexbox">
+            <li class="item">
+              <button class="button button-primary" type="button">Усі</button>
+            </li>
+            <li class="item">
+              <button class="button button-primary" type="button">
+                Веб-сайти
+              </button>
+            </li>
+            <li class="item">
+              <button class="button button-primary" type="button">
+                Додатки
+              </button>
+            </li>
+            <li class="item">
+              <button class="button button-primary" type="button">
+                Дизайн
+              </button>
+            </li>
+            <li class="item">
+              <button class="button button-primary" type="button">
+                Маркетинг
+              </button>
+            </li>
           </ul>
-          <ul class="list">
-            <div class="flex-box-examples">
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-1.jpg"
-                  alt="Технохряк обкладинка"
-                  width="370"
-                  height="294"
-                />
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-2.jpg"
-                  alt="Постер New Orlean vs Golden Star"
-                  width="370"
-                  height="294"
-                />
-                <h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-3.jpg"
-                  alt="обкладинка ресторана Seafood"
-                  width="370"
-                  height="294"
-                />
-                <h2>Ресторан Seafood</h2>
-                <p>Додаток</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-4.jpg"
-                  alt="обкладинка Проєкту Prime"
-                  width="370"
-                  height="294"
-                />
-                <h2>Проєкт Prime</h2>
-                <p>Маркетинг</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-5.jpg"
-                  alt="обкладинка Проєкту Boxes"
-                  width="370"
-                  height="294"
-                />
-                <h2>Проєкт Boxes</h2>
-                <p>Додаток</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-6.jpg"
-                  alt="обкладинка веб сайту Inspiration has no Borders"
-                  width="370"
-                  height="294"
-                />
-                <h2 lang="en">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-7.jpg"
-                  alt="Обкладинка видання Limited Edition"
-                  width="370"
-                  height="294"
-                />
+        </div>
+        <div class="container">
+          <ul class="list flex-box-examples">
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-1.jpg"
+                alt="Технохряк обкладинка"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Технокряк</h2>
+                <p class="item-paragraph">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">
+                  <span class="long-text"
+                    >Постер New Orlean vs Golden Star</span
+                  >
+                </h2>
+                <p class="item-paragraph">Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-3.jpg"
+                alt="обкладинка ресторана Seafood"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Ресторан Seafood</h2>
+                <p class="item-paragraph">Додаток</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-4.jpg"
+                alt="обкладинка Проєкту Prime"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Ресторан Seafood</h2>
+                <p class="item-paragraph">Додаток</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-5.jpg"
+                alt="обкладинка Проєкту Boxes"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Проєкт Boxes</h2>
+                <p class="item-paragraph">Додаток</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-6.jpg"
+                alt="обкладинка веб сайту Inspiration has no Borders"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header" lang="en">Inspiration has no Borders</h2>
+                <p class="item-paragraph">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-7.jpg"
+                alt="Обкладинка видання Limited Edition"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
                 <h2>Видання Limited Edition</h2>
-                <p>Дизайн</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-8.jpg"
-                  alt="Облкадинка Проєкту LAB"
-                  width="370"
-                  height="294"
-                />
-                <h2>Проєкт LAB</h2>
-                <p>Маркетинг</p>
-              </li>
-              <li class="item">
-                <img
-                  src="./image/portfolio-page/portfrolio-img-9.jpg"
-                  alt="фото Додатку Growing Business"
-                  width="370"
-                  height="294"
-                />
-                <h2>Growing Business</h2>
-                <p>Додаток</p>
-              </li>
-            </div>
+                <p class="item-paragraph">Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-8.jpg"
+                alt="Облкадинка Проєкту LAB"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Проєкт LAB</h2>
+                <p class="item-paragraph">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./image/portfolio-page/portfrolio-img-9.jpg"
+                alt="фото Додатку Growing Business"
+                width="370"
+                height="294"
+              />
+              <div class="item-text">
+                <h2 class="item-header">Growing Business</h2>
+                <p class="item-paragraph">Додаток</p>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <div class="item">
-          <a href="./index.html" class="logo">
-            Web<span class="logo-studio">Studio</span></a
-          >
-          <address>
-            <ul class="nav-bar-footer list">
-              <li class="physical-address">м. Київ, пр-т Лесі Українки, 26</li>
-              <li>
-                <a class="nav-link-footer" href="mailto:info@devstudio.com"
-                  >info@devstudio.com
-                </a>
-              </li>
-              <li>
-                <a class="nav-link-footer" href="tel:380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+        <a href="./index.html" class="logo">
+          Web<span class="logo-studio">Studio</span></a
+        >
+        <address>
+          <ul class="nav-bar-footer list">
+            <li class="physical-address item">
+              м. Київ, пр-т Лесі Українки, 26
+            </li>
+            <li class="item">
+              <a class="nav-link-footer" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="item">
+              <a class="nav-link-footer" href="tel:380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>

@@ -21,12 +21,12 @@
   <body>
     <header>
       <!--Navigation -->
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation-bar">
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio-header">Studio</span></a
           >
-          <ul class="nav-bar list">
+          <ul  class="nav-bar list">
             <li class="item">
               <a class="nav-link active" href="./index.html">Студія</a>
             </li>
@@ -35,21 +35,21 @@
             </li>
             <li class="item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
+           </nav>
           <!-- Contacts -->
           <ul class="contacts list">
             <li class="item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="contacts-adress" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="item number">
-              <a href="tel:380961111111">+38 096 111 11 11</a>
+              <a class="contacts-adress" href="tel:380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
-        </nav>
       </div>
     </header>
     <main>
       <!-- hero -->
-      <section class="section-hero">
+      <section class="section section-hero">
         <div class="container section-hero-text">
           <h1 class="section-hero-header">
             Еффективні рішення для вашого бізнесу
@@ -64,37 +64,37 @@
         </div>
       </section>
       <!-- sevice description -->
-      <section class="servise-description">
+      <section class="section servise-description">
         <div class="container">
           <h2>Наші переваги</h2>
           <ul class="list">
             <li class="item">
-              <h3>Увага до деталей</h3>
-              <p>
-                Ідейні міркування, i навіть початок<br />
-                повсякденної роботи з формування<br />
+              <h3 class="item-header">Увага до деталей</h3>
+              <p class="item-text">
+                Ідейні міркування, i навіть початок
+                повсякденної роботи з формування
                 позиції.
               </p>
             </li>
             <li class="item">
-              <h3>Пунктуальність</h3>
-              <p>
-                Завдання організації, особливо рамки<br />
+              <h3 class="item-header">Пунктуальність</h3>
+              <p class="item-text">
+                Завдання організації, особливо рамки
                 i місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="item">
-              <h3>Планування</h3>
-              <p>
-                Так само консультація з широким<br />
+              <h3 class="item-header">Планування</h3>
+              <p class="item-text">
+                Так само консультація з широким
                 активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item">
-              <h3>Сучасні технології</h3>
-              <p>
-                Значимість цих проблем настільки<br />
-                очевидна, що реалізація планових<br />
+              <h3 class="item-header">Сучасні технології</h3>
+              <p class="item-text">
+                Значимість цих проблем настільки
+                очевидна, що реалізація планових
                 завдань.
               </p>
             </li>
@@ -102,7 +102,8 @@
         </div>
       </section>
       <!-- About us -->
-      <section class="about-us container">
+      <section class="section about-us">
+        <div class="container">
         <h2 class="sections-headers">Чим ми займаємося</h2>
         <ul class="list">
           <div class="flexbox">
@@ -129,31 +130,34 @@
           </li>
           </div>
         </ul>
+        </div>
       </section>
       <!-- our team  -->
-      <section class="our-team">
+      <section class="section our-team">
         <div class="container">
         <h2 class="sections-headers">Наша команда</h2>
-        <ul class="list">
-          <div class="flexbox">
+        <ul class="list flexbox">
           <li class="item">
             <img
               src="./image/studio-page/hwteam1.jpg"
               alt="фото Ігора Дем'яненко"
               width="270"
             />
+            <div class="team-wrap">
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
+            </div>
           </li>
-
           <li class="item">
             <img
               src="./image/studio-page/hwteam2.jpg"
               alt="фото Ольги Рєпіної"
               width="270"
             />
+             <div class="team-wrap">
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -161,8 +165,10 @@
               alt="фото Миколи Тарасова"
               width="270"
             />
+             <div class="team-wrap">
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
+          </div>
           </li>
           <li class="item">
             <img
@@ -170,35 +176,35 @@
               alt="фото Михайла Єрмакова"
               width="270"
             />
+             <div class="team-wrap">
             <h3>Михайло Єрмаков</h3>
             <p>UI Designer</p>
-          </li>
           </div>
+          </li>
+ 
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <div class="item">
       <a href="./index.html" class="logo">
         Web<span class="logo-studio">Studio</span></a
       >
       <address>
         <ul class="nav-bar-footer list">
-          <li class="physical-address">м. Київ, пр-т Лесі Українки, 26</li>
-          <li>
+          <li class="physical-address item">м. Київ, пр-т Лесі Українки, 26</li>
+          <li class="item">
             <a class="nav-link-footer" href="mailto:info@devstudio.com"
               >info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="nav-link-footer" href="tel:380961111111"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </address>
-      </div>
       </div>
     </footer>
   </body>
