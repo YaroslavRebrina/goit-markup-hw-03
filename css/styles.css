@@ -184,14 +184,16 @@ display: block;
 .button-primary{
     border: 0px;
     color: var(--main-txt-cl);
+    background-color: var(--color-button);
     border-radius: 4px;
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    width: 112px;
-    height: 38px;
+    min-width: 73px;
+    min-height: 38px;
+    padding: 6px 22px;
 }
 
 .button-primary:hover,
@@ -421,7 +423,7 @@ display: block;
 /* examples */
 
 .projects-examples .item-header{
-
+    margin-bottom: 4px;
 
     font-size: 18px;
     line-height: 2;
@@ -441,7 +443,6 @@ display: block;
     display:flex ;
     flex-wrap: wrap;
     gap: 30px;  
-    margin-bottom: 94px;
 }
 
 .flex-box-examples .item{
